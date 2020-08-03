@@ -5,3 +5,4 @@ Route::group(['middleware' => 'web'], function () {
         return call_user_func([request()->input('component'), 'fileUpload']);
     })->name('laravel-livewire-forms.file-upload');
 });
+
